@@ -72,10 +72,10 @@ class AddonCheckUpdate:
 			import traceback
 			traceback.print_exc()
 
-class SyncKingpinAccounts:
+class SyncMyAccounts:
 	def run(self):
 		xbmc.log('[ script.module.kingpinscrapers ]  Sync "My Accounts" Service Starting...', LOGINFO)
-		control.syncKingpinAccounts(silent=True)
+		control.syncMyAccounts(silent=True)
 		return xbmc.log('[ script.module.kingpinscrapers ]  Finished Sync "My Accounts" Service', LOGINFO)
 
 class CheckUndesirablesDatabase:
@@ -95,7 +95,7 @@ def main():
 		xbmc.log('[ script.module.kingpinscrapers ]  Service Started', LOGINFO)
 		CheckSettingsFile().run()
 		CheckUndesirablesDatabase().run()
-		SyncKingpinAccounts().run()
+		SyncMyAccounts().run()
 		if control.setting('checkAddonUpdates') == 'true':
 			AddonCheckUpdate().run()
 		if control.isVersionUpdate():

@@ -71,19 +71,19 @@ elif action == "toggleAllPackTorrent":
 		control.setSetting(source_setting, params['setting'])
 
 elif action == 'openMyAccount':
-	from kingpinaccounts import openMASettings
+	from myaccounts import openMASettings
 	openMASettings('0.0')
 	control.sleep(500)
-	while control.condVisibility('Window.IsVisible(addonsettings)') or control.homeWindow.getProperty('kingpinaccounts.active') == 'true':
+	while control.condVisibility('Window.IsVisible(addonsettings)') or control.homeWindow.getProperty('myaccounts.active') == 'true':
 		control.sleep(500)
 	control.sleep(100)
-	control.synckingpinaccounts()
+	control.syncmyaccounts()
 	control.sleep(100)
 	if params.get('opensettings') == 'true':
 		control.openSettings(query, 'script.module.kingpinscrapers')
 
 elif action == 'syncMyAccount':
-	control.synckingpinaccounts()
+	control.syncmyaccounts()
 	if params.get('opensettings') == 'true':
 		control.openSettings(query, 'script.module.kingpinscrapers')
 

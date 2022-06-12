@@ -90,7 +90,7 @@
 		<setting label="32018" type="lsep" />
 		<setting type="action" label="32019" option="close" action="RunPlugin(plugin://script.module.kingpinscrapers/?action=openMyAccount&amp;opensettings=true&amp;query=3.1)" />
 		<setting type="action" label="32020" option="close" action="RunPlugin(plugin://script.module.kingpinscrapers/?action=syncMyAccount&amp;opensettings=true&amp;query=3.2)" />
-		<setting type="action" label="32004" action="RunPlugin(plugin://script.module.kingpinscrapers/?action=ShowHelp&amp;name=kingpinaccountsSync&amp;query=8.2)" />
+		<setting type="action" label="32004" action="RunPlugin(plugin://script.module.kingpinscrapers/?action=ShowHelp&amp;name=myaccountsSync&amp;query=8.2)" />
 
 		<setting type="lsep" label="32021" />
 		<setting id="filepursuit.api" type="text" label="32022" default="" enable="false" />

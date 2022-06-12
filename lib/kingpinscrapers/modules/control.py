@@ -228,9 +228,9 @@ def notification(title=None, message=None, icon=None, time=3000, sound=False):
 	elif icon == 'ERROR': icon = xbmcgui.NOTIFICATION_ERROR
 	dialog.notification(heading, body, icon, time, sound=sound)
 
-def syncKingpinAccounts(silent=False):
-	import kingpinaccounts
-	all_acct = kingpinaccounts.getAllScraper()
+def syncMyAccounts(silent=False):
+	import myaccounts
+	all_acct = myaccounts.getAllScraper()
 
 	fp_acct = all_acct.get('filepursuit')
 	if setting('filepursuit.api') != fp_acct.get('api_key'):
