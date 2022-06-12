@@ -1,8 +1,8 @@
-<addon id="script.module.kingpinscrapers" name="kingpinScrapers Module" version="0.0.2" provider-name="Kingpin">
+<addon id="script.module.kingpinscrapers" name="kingpinScrapers Module" version="0.0.3" provider-name="Kingpin">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
-		<import addon="script.module.kingpinaccounts" version="0.0.1" />
+		<import addon="script.module.kingpinaccounts" version="0.0.2" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="lib/default.py">
 		<provides>executable</provides>
