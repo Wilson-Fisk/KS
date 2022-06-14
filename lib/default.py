@@ -77,13 +77,13 @@ elif action == 'openMyAccount':
 	while control.condVisibility('Window.IsVisible(addonsettings)') or control.homeWindow.getProperty('myaccounts.active') == 'true':
 		control.sleep(500)
 	control.sleep(100)
-	control.syncmyaccounts()
+	control.syncMyAccounts()
 	control.sleep(100)
 	if params.get('opensettings') == 'true':
 		control.openSettings(query, 'script.module.kingpinscrapers')
 
 elif action == 'syncMyAccount':
-	control.syncmyaccounts()
+	control.syncMyAccounts()
 	if params.get('opensettings') == 'true':
 		control.openSettings(query, 'script.module.kingpinscrapers')
 
