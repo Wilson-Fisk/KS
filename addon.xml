@@ -1,4 +1,4 @@
-<addon id="script.module.kingpinscrapers" name="kingpinScrapers Module" version="0.0.5" provider-name="Kingpin">
+<addon id="script.module.kingpinscrapers" name="kingpinScrapers Module" version="0.0.6" provider-name="Kingpin">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -16,8 +16,8 @@
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<forum></forum>
-		<website>https://github.com/Mr-Kodi/repository.kingpinscrapers</website>
-		<source>https://github.com/Mr-Kodi/repository.kingpinscrapers</source>
+		<website>https://github.com/Wilson-Fisk/KS</website>
+		<source>https://github.com/Wilson-Fisk/KS</source>
 		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
 		<assets>
 			<icon>icon.png</icon>
@@ -25,10 +25,8 @@
 			<screenshot></screenshot>
 		</assets>
 		<news>
-[B][COLOR red]Update - v2.1.8 - April 07, 2022[/COLOR][/B]
-[COLOR yellow]--[/COLOR][I] Fixed BITCQ bug in pack file title checking.[/I]
-[COLOR yellow]--[/COLOR][I] Updated torrentinfo help file.[/I]
-[COLOR yellow]--[/COLOR][I] Small fix for BITSEARCH query results when an item might contain a new liked count mucking with the index.[/I]
+[B][COLOR magenta]Update - v0.0.6 - Jun 14, 2022[/COLOR][/B]
+[COLOR magenta]--[/COLOR][I] Kingpin is here.[/I]
 		</news>
 	</extension>
 </addon>
