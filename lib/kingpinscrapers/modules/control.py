@@ -248,11 +248,7 @@ def syncMyAccounts(silent=False):
 	if setting('easynews.user') != en_acct.get('username'):
 		setSetting('easynews.user', en_acct.get('username'))
 		setSetting('easynews.password', en_acct.get('password'))
-
-	gd_acct = all_acct.get('gdrive')
-	if setting('gdrive.cloudflare_url') != gd_acct.get('url'):
-		setSetting('gdrive.cloudflare_url', gd_acct.get('url'))
-
+		
 	or_acct = all_acct.get('ororo')
 	if setting('ororo.user') != or_acct.get('email'):
 		setSetting('ororo.user', or_acct.get('email'))
